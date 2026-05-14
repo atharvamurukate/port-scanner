@@ -7,3 +7,10 @@ print("    PORT SCANNER")
 print("=" * 60)
 
 target = input("Enter Target IP or website: ")
+
+try:
+    target_ip = socket.gethostbyname(target)
+except socket.gaierror:
+    print("Invalid Hostname")
+    exit()
+
