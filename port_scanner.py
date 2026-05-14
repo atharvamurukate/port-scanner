@@ -14,3 +14,7 @@ except socket.gaierror:
     print("Invalid Hostname")
     exit()
 
+print(f"Scanning Target: {target_ip}")
+print(f"Time started: {datetime.now()}")
+print("\nScanning...")
+
