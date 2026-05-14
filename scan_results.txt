@@ -1,0 +1,14 @@
+============================================================
+    PORT SCANNER
+============================================================
+Enter Target IP or website: scanme.nmap.org
+Scanning Target: 45.33.32.156
+Time started: 2026-05-14 10:50:15.712416
+Enter starting port: 20
+Enter ending port: 100
+
+Scanning...
+[OPEN] port 22
+[OPEN] port 80
+
+Scan completed.
